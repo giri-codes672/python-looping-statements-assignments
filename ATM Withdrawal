@@ -1,0 +1,11 @@
+balance = 10000
+
+amount = float(input("Enter withdrawal amount: "))
+
+if amount <= balance:
+    if amount <= 5000:
+        print("Transaction Successful")
+    else:
+        print("Withdrawal limit exceeded")
+else:
+    print("Insufficient Balance")
